@@ -1,0 +1,46 @@
+.slideshow{
+  width: 100vw;
+  height: 500px;
+  background: black;
+}
+
+.slider{
+  width: 100vw;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.imgslider{
+  width: 100vw;
+  height: 500px;
+  object-fit: contain;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.show {
+  visibility: show;
+}
+
+.slide-arrow {
+	color: white;
+	cursor: pointer;
+	font-size: 2rem;
+	position: absolute;
+	top: 219px;
+  z-index: 1000000;
+}
+
+.slide-arrow.right {
+	right: 1rem;
+}
+
+.slide-arrow.left {
+	left: 1rem;
+}
+
+
